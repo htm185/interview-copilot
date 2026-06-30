@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Env
+.env
+**/.env
+!.env.example
+**/.env.example
+
+# Node / Next
+node_modules/
+.next/
+dist/
+build/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+backend/.venv/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+node_modules/
+.next/
+.env
+**/.env
+!.env.example
+**/.env.example
