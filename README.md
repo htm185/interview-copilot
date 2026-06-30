@@ -39,7 +39,7 @@ Luồng xử lý:
 4. Trả kết quả JSON cho frontend
 5. Lưu lịch sử chạy vào bảng `pipeline_runs`
 
-## Cấu trúc thư mục (rút gọn)
+## Cấu trúc thư mục 
 
 ```bash
 backend/
@@ -115,15 +115,4 @@ Lấy lịch sử chạy gần đây.
 
 Xem file `.env.example`.
 
-## Lưu ý bảo mật
 
-- Không commit `.env`
-- Không commit API key
-- Nên rotate key nếu lỡ lộ
-
-## Roadmap (gợi ý)
-
-- Chuẩn hóa response schema chi tiết hơn
-- Thêm auth cho API
-- Deploy (Render/Railway/Vercel)
-- Dashboard thống kê lịch sử run
