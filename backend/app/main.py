@@ -4,8 +4,11 @@ from sqlalchemy import text
 from app.db.session import engine
 from app.db.base import Base
 from app.api.routes_pipeline import router as pipeline_router
+from app.api.eval_routes import router as eval_router
+
 
 app = FastAPI(title="Interview Copilot API", version="0.1.0")
+app.include_router(eval_router)
 
 app.add_middleware(
     CORSMiddleware,
